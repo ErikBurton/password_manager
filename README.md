@@ -1,6 +1,8 @@
 # Overview
 
-As a software engineer, I am always looking to expand my understanding of new languages and improve my ability to write safe, efficient, and maintainable code. This project gave me the opportunity to explore the Rust programming language and gain hands-on experience with its unique features like ownership, borrowing, and type safety.
+# 🔐 Password Manager CLI (Rust)
+
+As a software engineer, I am always looking to expand my understanding of new languages and improve my ability to write safe, efficient, and maintainable code. This project gave me the opportunity to explore the 🦀 **Rust** programming language and gain hands-on experience with its unique features like ownership, borrowing, and type safety.
 
 To demonstrate my understanding, I built a simple command-line **Password Manager** that allows users to securely store, retrieve, and delete passwords. The program uses a `HashMap` to manage data in memory and saves entries to a JSON file on disk. Passwords are hashed using SHA256 before being saved, providing basic encryption for security.
 
@@ -30,8 +32,8 @@ My primary goal was to strengthen my understanding of core Rust concepts such as
 
 # Future Work
 
-- Add support for password categories or tags
-- Encrypt data instead of just hashing (AES or other)
-- Implement search and filter functionality for large datasets
-- Add unit tests and error-handling improvements
-- Build a simple GUI or web-based frontend in future modules
+- 🗂 Add support for password categories or tags
+- 🔑 Encrypt data instead of just hashing (AES or other)
+- 🗃️ Implement search and filter functionality for large datasets
+- 🖥 Add unit tests and error-handling improvements
+- 🌐 Build a simple GUI or web-based frontend in future modules
