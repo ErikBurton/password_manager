@@ -8,7 +8,7 @@ To demonstrate my understanding, I built a simple command-line **Password Manage
 
 My primary goal was to strengthen my understanding of core Rust concepts such as file I/O, data structures, and memory safety. Through this project, I was also able to explore modular Rust development and work with external crates for serialization and cryptography.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/mFKxwD9BdIQ)
 
 # Development Environment
 
