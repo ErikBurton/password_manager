@@ -87,8 +87,8 @@ fn get_password(passwords: &HashMap<String, PasswordEntry>) {
 
 // Lists all entries (site and username)
 fn list_entries(passwords: &HashMap<String, PasswordEntry>) {
-    for (site, entry) in passwords {
-        println!("Site: {}, Username: {}", site, entry.username);
+    for entry in passwords.values() {
+        println!("{}", entry.summary());
     }
 }
 
