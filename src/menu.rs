@@ -77,9 +77,15 @@ fn add_password(passwords: &mut HashMap<String, PasswordEntry>) {
 // Retrieves and displays a password entry by site name.
 fn get_password(passwords: &HashMap<String, PasswordEntry>) {
     let site = prompt("Site: ");
+    let username = prompt("Enter your username: ");
+
     if let Some(entry) = passwords.get(&site) {
-        println!("Username: {}", entry.username);
-        println!("(Hashed) Password: {}", entry.password_hash);
+        if entry.is_for_user(&username) {
+            println!("Username: {}", entry.username);
+            println!("(Hashed) Password: {}", entry.password_hash);
+        } else {
+            println!("Username does not match.");
+        }
     } else {
         println!("No entry found.");
     }
